@@ -200,8 +200,6 @@ header .hero-image img:hover {
     transform: translateY(0);
 }
 
-.hero-content {}
-
 .hero-content2 img {
     width: 1920px;
     height: 316px;
@@ -295,30 +293,36 @@ header .hero-image img:hover {
     color: #000000;
 }
 
-.social-icon {
-    width: 800px;
+.wrapper2 {
+    background: none;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sosial-icon {
     margin-left: auto;
     margin-right: auto;
     padding-top: 200px;
+    align-items: center;
 }
 
 #iconig {
     position: absolute;
-    padding-left: 2000px;
-    padding-top: 250px;
+    padding-left: 1400px;
 }
 
 #iconfb {
     position: absolute;
     padding-left: 0px;
-    padding-top: 250px;
+    padding-top: 0px;
 }
 
 .admin {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 180px;
+    padding-top: 0px;
 }
 
 .admin a {
@@ -362,11 +366,13 @@ header .hero-image img:hover {
     /* padding-right: 500px; */
 }
 
+
 /* .social-icons {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
 } */
+
 
 /* .social-icons a {
     margin: 0 100px;
@@ -379,7 +385,7 @@ header .hero-image img:hover {
 .footer {
     text-align: center;
     color: #FFFFFA;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 40px;
     line-height: 60px;
     margin-top: -60px;
