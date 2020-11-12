@@ -1,0 +1,47 @@
+.gaspol {
+    width: 1920px;
+    height: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gaspol img {
+    width: 1920px;
+}
+
+.gaspol .logo {
+    margin-top: -1200px;
+}
+
+.gaspol .logo img {
+    width: 700px;
+}
+
+.gaspol .logo img:hover {
+    transform: rotate(360deg);
+    transition: 3s;
+}
+
+.gaspol .pakpol {
+    background: #38AEAA;
+    opacity: 0.5;
+    box-shadow: 30px 50px 24px rgba(0, 0, 0, 0.35);
+    border-radius: 40px;
+    width: 1000px;
+    height: 850px;
+    margin-left: 800px;
+}
+
+.gaspol .pakpol p {
+    font-size: 40px;
+    margin-top: -650px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+#about {
+    background: rgba(255, 114, 0, 0.6);
+    border-radius: 8px;
+}
