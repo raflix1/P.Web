@@ -20,7 +20,7 @@ body {
 }
 
 .wrapper {
-    width: 1200px;
+    width: 1800px;
     margin: 0 auto;
 }
 
@@ -137,7 +137,7 @@ header .hero-image img:hover {
 /* Search Box */
 
 .search-box {
-    width: 1300px;
+    width: 1900px;
     margin: 0 auto;
     text-align: right;
     position: relative;
