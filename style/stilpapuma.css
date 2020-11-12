@@ -46,8 +46,6 @@
 
 .image-papuma {
     display: flex;
-    margin: 0 auto;
-    padding-left: 0px;
     margin-top: 100px;
 }
 
@@ -59,19 +57,8 @@
     margin: 0 40px;
 }
 
-
 /* papuma 2 */
 
-.image-papuma2 {
-    display: flex;
-    margin: 0 auto;
-    margin-top: 100px;
-}
-
-.image-papuma2 img {
-    width: 880px;
-}
-
-.image-papuma2 a {
-    margin: 0 40px;
+#papuma2 {
+    margin-left: -80px;
 }
