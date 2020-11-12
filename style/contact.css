@@ -1,0 +1,65 @@
+.anjay {
+    width: 1920px;
+    height: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.anjay img {
+    width: 1920px;
+}
+
+.anjay .logo {
+    margin-top: -1200px;
+}
+
+.anjay .logo img {
+    width: 800px;
+}
+
+.anjay .logo img:hover {
+    transform: rotate(360deg);
+    transition: 3s;
+}
+
+.joss {
+    margin-top: -700px;
+    margin-left: 800px;
+}
+
+.joss li {
+    list-style: none;
+}
+
+#fb img {
+    width: 700px;
+}
+
+#ig img {
+    width: 700px;
+    margin-top: 50px;
+}
+
+#wa1 img {
+    width: 800px;
+    margin-top: 50px;
+}
+
+#wa2 img {
+    width: 650px;
+    margin-top: 50px;
+}
+
+#em img {
+    width: 1000px;
+    margin-top: 50px;
+}
+
+#contact {
+    background: rgba(255, 114, 0, 0.6);
+    border-radius: 8px;
+}
+
+.bottom-1 .admin img {
+    padding-top: 190px;
+}
