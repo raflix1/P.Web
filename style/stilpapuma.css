@@ -1,12 +1,20 @@
 .header-content {
     width: 1920px;
-    height: 2500px;
+    height: 3300px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .header-content img {
     width: 1920px;
+}
+
+#with {
+    width: 1920px;
+}
+
+#bottom-1-objek {
+    margin-top: -60px;
 }
 
 .body1 {
@@ -57,8 +65,143 @@
     margin: 0 40px;
 }
 
+.image-papuma a img:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+
 /* papuma 2 */
 
 #papuma2 {
     margin-left: -80px;
+}
+
+
+/* witbok */
+
+.whitbox-y {
+    width: 10px;
+    height: 1400px;
+    background: #FFFFFA;
+    margin-left: 950px;
+    margin-top: -1331px;
+}
+
+.whitbox-x {
+    width: 1920px;
+    height: 23px;
+    margin-top: -700px;
+    background: #FFFFFA;
+}
+
+.whitbox-x1 {
+    width: 1920px;
+    height: 23px;
+    margin-top: 650px;
+    background: #FFFFFA;
+}
+
+.orenbox {
+    margin-top: 31px;
+}
+
+.orenbox p {
+    text-decoration: none;
+    background: rgb(232, 108, 19);
+    border-radius: 10px;
+    position: absolute;
+    width: 1920px;
+    height: 148px;
+    font-family: Viner Hand ITC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 116px;
+    color: #000000;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+.bintang4 img {
+    position: absolute;
+    width: 414px;
+    height: 80px;
+}
+
+.bintang4 {
+    padding-left: 385px;
+    padding-top: 20px;
+}
+
+.user-rating {
+    position: absolute;
+    width: 1744px;
+    height: 349px;
+    background: #FFFFFA;
+    border-radius: 50px;
+    margin-top: -900px;
+    margin-left: 61px;
+}
+
+
+/* use rating */
+
+.user-rating img {
+    margin-top: 91px;
+    margin-left: 28px;
+}
+
+.container-bro {
+    /* position: absolute; */
+    width: 1186px;
+    height: 11px;
+    background: #000000;
+    margin-left: 365px;
+    margin-top: -180px;
+}
+
+.star {
+    width: 425px;
+    height: 80px;
+    margin-left: 1109px;
+    margin-top: -180px;
+}
+
+.anonim {
+    width: 675px;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    color: #000000;
+    opacity: 1;
+    border: none;
+    margin-left: 388px;
+}
+
+.container-brow {
+    width: 767px;
+    height: 4px;
+    background: #000000;
+    margin-left: 409px;
+    margin-top: 69px;
+}
+
+#brow {
+    margin-top: 40px;
+}
+
+#nn {
+    margin-top: -470px;
+}
+
+.name-n {
+    width: 675px;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    color: #000000;
+    margin-left: 388px;
 }
