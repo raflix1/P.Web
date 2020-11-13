@@ -31,6 +31,10 @@
     list-style: none;
 }
 
+.joss img:hover {
+    transform: scale(1.2);
+}
+
 #fb img {
     width: 700px;
 }
