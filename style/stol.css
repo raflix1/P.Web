@@ -35,7 +35,7 @@ nav ul {
     display: flex;
 }
 
-nav .logo a{
+nav .logo a {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -69,6 +69,7 @@ nav .logo a:hover {
     background-color: #FF7200;
     border-radius: 8px;
 }
+
 
 /* Header */
 
@@ -144,13 +145,16 @@ header .hero-image img:hover {
 }
 
 .hero-gambar a img:hover {
-    transform: scale(1.1) ;
+    transform: scale(1.1);
+    transition: 800ms;
 }
 
 .hero-gambar p:hover {
     color: #f80808;
     background-color: #59e608;
 }
+
+
 /* Search Box */
 
 .search-box {

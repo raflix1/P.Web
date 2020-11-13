@@ -112,6 +112,7 @@
 
 .centang img:hover {
     transform: translateY(23px);
+    transition: 700ms;
 }
 
 .orenbox {
@@ -180,6 +181,7 @@
     border: none;
 }
 
+
 /* use rating */
 
 .user-rating img {
@@ -214,6 +216,7 @@
     border: none;
     margin-left: 388px;
 }
+
 
 /* garis kecil */
 
