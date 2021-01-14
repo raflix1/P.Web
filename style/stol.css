@@ -1,17 +1,38 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
 body {
     font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-menu {
+    float: right;
+    display: none;
+    padding: 18px;
+}
+
+.mobile-menu:hover {
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~.nav-items {
+    left: 0;
+}
+
+.nav-items::after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
 
 /* Navigation */
 
 .nav-container {
-    background: #fffffa;
+    background: #ffffff;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
     height: 72px;
     margin-top: -65px;
@@ -20,7 +41,7 @@ body {
 }
 
 .wrapper {
-    width: 1800px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -44,13 +65,17 @@ nav .logo a {
     text-decoration: none;
 }
 
+nav .logo a {
+    transition: .3s;
+}
+
 nav .logo a:hover {
-    color: #0D6368;
+    color: #e20707;
 }
 
 .nav-items li {
     list-style: none;
-    margin-right: 100px;
+    margin-right: 60px;
 }
 
 .nav-items li:nth-last-of-type(1) {
@@ -62,6 +87,7 @@ nav .logo a:hover {
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
+    transition: .8s;
 }
 
 .nav-items li a:hover {
@@ -132,12 +158,15 @@ header a:hover {
 
 header .hero-image {
     position: relative;
+    /* margin-right: 1000px; */
 }
 
 header .hero-image img {
     transition: 300ms;
     position: relative;
     z-index: 100;
+    width: 100%;
+    height: 100%;
 }
 
 header .hero-image img:hover {
@@ -149,6 +178,10 @@ header .hero-image img:hover {
     transition: 800ms;
 }
 
+.hero-gambar p {
+    transition: .6s;
+}
+
 .hero-gambar p:hover {
     color: #f80808;
     background-color: #59e608;
@@ -158,7 +191,7 @@ header .hero-image img:hover {
 /* Search Box */
 
 .search-box {
-    width: 1900px;
+    width: 100%;
     margin: 0 auto;
     text-align: right;
     position: relative;
@@ -221,34 +254,44 @@ header .hero-image img:hover {
     transform: translateY(0);
 }
 
+.hero-content {
+    width: 100%;
+}
+
 .hero-content2 img {
-    width: 1920px;
+    width: 100%;
     height: 316px;
     border-radius: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px;
 }
 
 .hero-content2 h1 {
-    font-family: "Pristina", sans-serif;
+    font-family: 'Fredoka One', cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 250px;
+    font-size: 100px;
     line-height: 299px;
-    color: #FF7200;
+    color: #ebe2d9;
     text-align: center;
-    margin-top: -250px;
+    margin-top: -300px;
 }
 
 
 /* gambar gambar */
 
+.bentuknya {
+    width: 100%;
+    height: 100%;
+}
+
 .hero-gambar {
     display: flex;
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
-    padding-left: 95px;
+    /* padding-left: 95px; */
 }
 
 .hero-gambar a {
@@ -264,12 +307,12 @@ header .hero-image img:hover {
     background: #F06464;
     border-radius: 10px;
     position: absolute;
-    width: 551px;
+    width: 430px;
     height: 61px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 46px;
     color: #000000;
     text-align: center;
@@ -277,7 +320,7 @@ header .hero-image img:hover {
 }
 
 #hero-gambar-1 {
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 
@@ -286,7 +329,7 @@ header .hero-image img:hover {
 .bottom-1 {
     background: #021718;
     width: 100%;
-    height: 489px;
+    height: 510px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 300px;
@@ -316,12 +359,13 @@ header .hero-image img:hover {
 
 .wrapper2 {
     background: none;
-    width: 1920px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .sosial-icon {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 200px;
@@ -330,13 +374,13 @@ header .hero-image img:hover {
 
 #iconig {
     position: absolute;
-    padding-left: 1400px;
+    padding-left: 60%;
 }
 
 #iconfb {
     position: absolute;
-    padding-left: 0px;
-    padding-top: 0px;
+    padding-top: 10px;
+    padding-left: 1%;
 }
 
 .admin {
@@ -361,6 +405,11 @@ header .hero-image img:hover {
     position: absolute;
     padding-left: 500px;
     padding-top: 70px;
+}
+
+.admin p {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    color: #E5E5E5;
 }
 
 .withbox {
@@ -390,8 +439,23 @@ header .hero-image img:hover {
 .footer {
     text-align: center;
     color: #FFFFFA;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Spartan', sans-serif;
     font-size: 40px;
     line-height: 60px;
-    margin-top: -60px;
+    margin-top: -90px;
+}
+
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: block;
+    }
+    .nav-container ul {
+        display: none;
+    }
+    .col-4 {
+        width: 50%;
+    }
+    .col-3 {
+        width: 100%;
+    }
 }
