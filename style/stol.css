@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     height: 100%;
 }
@@ -54,6 +54,7 @@ nav {
 
 nav ul {
     display: flex;
+    /* width: 40%; */
 }
 
 nav .logo a {
@@ -95,6 +96,9 @@ nav .logo a:hover {
     background-color: #FF7200;
     border-radius: 8px;
 }
+
+
+/* ukuran tablet */
 
 
 /* Header */
@@ -224,6 +228,7 @@ header .hero-image img:hover {
 .nav-btn-container {
     display: flex;
     position: relative;
+    margin-right: 60px;
 }
 
 .nav-btn-container img {
@@ -309,7 +314,7 @@ header .hero-image img:hover {
     position: absolute;
     width: 430px;
     height: 61px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -329,7 +334,7 @@ header .hero-image img:hover {
 .bottom-1 {
     background: #021718;
     width: 100%;
-    height: 510px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 300px;
@@ -341,20 +346,28 @@ header .hero-image img:hover {
     display: block;
 }
 
-.bottom-1 p {
-    background: #48C757;
+#admin1 p {
+    background: #4cc059;
     border-radius: 20px;
-    /* position: absolute; */
-    width: 300px;
-    height: 50px;
+    width: 200px;
+    height: 30px;
     text-align: center;
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
-    font-family: "Adamina", sans-serif;
-    font-size: 35px;
-    line-height: 48px;
-    color: #000000;
+    font-size: 25px;
+}
+
+#admin2 p {
+    background: #4cc059;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
 }
 
 .wrapper2 {
@@ -368,19 +381,32 @@ header .hero-image img:hover {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 200px;
+    padding-top: 90px;
     align-items: center;
 }
 
 #iconig {
     position: absolute;
     padding-left: 60%;
+    padding-top: 50px;
+}
+
+#iconig img {
+    width: 50%;
+}
+
+#iconfb img {
+    width: 50%;
 }
 
 #iconfb {
     position: absolute;
-    padding-top: 10px;
+    padding-top: 60px;
     padding-left: 1%;
+}
+
+#batik {
+    margin-top: -70px;
 }
 
 .admin {
@@ -398,13 +424,13 @@ header .hero-image img:hover {
 #admin1 {
     position: absolute;
     padding-left: 0px;
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 #admin2 {
     position: absolute;
-    padding-left: 500px;
-    padding-top: 70px;
+    padding-left: 560px;
+    padding-top: 60px;
 }
 
 .admin p {
@@ -416,8 +442,8 @@ header .hero-image img:hover {
     position: absolute;
     width: 100%;
     height: 37px;
-    background: #E5E5E5;
-    margin-top: 50px;
+    background: #c4c4c4;
+    margin-top: 40px;
 }
 
 .jarak {
@@ -431,31 +457,23 @@ header .hero-image img:hover {
 }
 
 .admin #admin2 .jarak {
-    /* margin: 0 100px; */
     margin-right: -1000px;
-    /* padding-right: 500px; */
 }
 
 .footer {
     text-align: center;
     color: #FFFFFA;
     font-family: 'Spartan', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     line-height: 60px;
-    margin-top: -90px;
+    margin-top: -70px;
 }
 
 @media (max-width: 768px) {
     .mobile-menu {
         display: block;
     }
-    .nav-container ul {
+    .wrapper ul {
         display: none;
-    }
-    .col-4 {
-        width: 50%;
-    }
-    .col-3 {
-        width: 100%;
     }
 }

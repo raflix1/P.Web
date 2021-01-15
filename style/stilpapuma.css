@@ -1,24 +1,28 @@
 .header-content {
-    width: 1920px;
+    width: 100%;
     height: 3300px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.header-content img {
-    width: 1920px;
+.admin img {
+    margin-top: -170px;
 }
 
-#with {
-    width: 1920px;
+.header-content img {
+    width: 100%;
 }
 
 #bottom-1-objek {
-    margin-top: -60px;
+    margin-top: -270px;
+}
+
+#anjkj {
+    padding-top: 100px;
 }
 
 .body1 {
-    width: 1920px;
+    width: 100%;
     background: #F2AB72;
     margin-left: auto;
     margin-right: auto;
@@ -31,7 +35,9 @@
 }
 
 .container1 {
-    height: 149px;
+    display: inline-block;
+    height: 0px;
+    width: 100%;
     padding-top: 100px;
     background: #13072E;
     margin-top: 100px;
@@ -39,11 +45,11 @@
 
 .container1 H1 {
     text-align: center;
-    margin-top: -74px;
+    margin-top: -100px;
     font-family: "Pristina";
     font-style: normal;
     font-weight: normal;
-    font-size: 96px;
+    font-size: 50px;
     line-height: 115px;
     color: #FFFFFA;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
@@ -58,7 +64,7 @@
 }
 
 .image-papuma img {
-    width: 880px;
+    width: 100%;
 }
 
 .image-papuma a {
@@ -84,30 +90,29 @@
     width: 10px;
     height: 1400px;
     background: #FFFFFA;
-    margin-left: 950px;
+    margin-left: 670px;
     margin-top: -1331px;
 }
 
 .whitbox-x {
-    width: 1920px;
+    width: 100%;
     height: 23px;
-    margin-top: -700px;
+    margin-top: -540px;
     background: #FFFFFA;
 }
 
 .whitbox-x1 {
-    width: 1920px;
+    width: 100%;
     height: 23px;
-    margin-top: 650px;
+    margin-top: 500px;
     background: #FFFFFA;
 }
 
 .centang img {
     position: absolute;
-    width: 100px;
-    height: 199px;
-    margin-left: 905px;
-    margin-top: -165px;
+    width: 5%;
+    margin-left: 645px;
+    margin-top: -125px;
 }
 
 .centang img:hover {
@@ -116,20 +121,20 @@
 }
 
 .orenbox {
-    margin-top: 31px;
+    margin-top: 100px;
 }
 
 .orenbox p {
     text-decoration: none;
     background: rgb(232, 108, 19);
-    border-radius: 10px;
+    border-radius: 5px;
     position: absolute;
-    width: 1920px;
-    height: 148px;
+    width: 100%;
+    height: 80px;
     font-family: Viner Hand ITC;
     font-style: normal;
     font-weight: normal;
-    font-size: 72px;
+    font-size: 50px;
     line-height: 116px;
     color: #000000;
     padding-top: 10px;
@@ -138,34 +143,40 @@
 
 .bintang4 img {
     position: absolute;
-    width: 414px;
-    height: 80px;
+    width: 20%;
+    /* width: 414px;
+    height: 80px; */
 }
 
 .bintang4 {
-    padding-left: 385px;
-    padding-top: 20px;
+    padding-left: 280px;
+    padding-top: 80px;
 }
 
 .user-rating {
     position: absolute;
-    width: 1744px;
+    width: 70%;
     height: 349px;
     background: #FFFFFA;
     border-radius: 50px;
-    margin-top: -900px;
-    margin-left: 61px;
+    margin-top: -1200px;
+    margin-left: 0px;
+}
+
+#koak {
+    width: 10%;
 }
 
 
 /* submit */
 
 .submit {
-    width: 229px;
-    height: 70px;
+    width: 200px;
+    height: 60px;
     background: #12DAF5;
     border-radius: 50px;
-    margin-left: 1321px;
+    margin-left: 700px;
+    margin-top: -16px;
     position: absolute;
     font-family: Poppins;
     font-style: normal;
@@ -191,40 +202,48 @@
 
 .container-bro {
     /* position: absolute; */
-    width: 1186px;
+    width: 740px;
     height: 11px;
     background: #000000;
-    margin-left: 365px;
-    margin-top: -180px;
+    margin-left: 130px;
+    margin-top: -80px;
 }
 
 .star {
-    width: 425px;
-    height: 80px;
-    margin-left: 1109px;
+    /* display: f; */
+    /* width: 425px;
+    height: 80px; */
+    margin-left: 470px;
     margin-top: -180px;
 }
 
+.star img {
+    width: 50%;
+    margin-left: 130px;
+}
+
 .anonim {
-    width: 675px;
+    width: 439px;
+    display: flex;
     font-family: Times New Roman;
     font-style: normal;
     font-weight: normal;
-    font-size: 72px;
+    font-size: 50px;
     color: #000000;
     opacity: 1;
     border: none;
-    margin-left: 388px;
+    margin-left: 150px;
+    margin-top: -85px;
 }
 
 
 /* garis kecil */
 
 .container-brow {
-    width: 767px;
+    width: 700px;
     height: 4px;
     background: #000000;
-    margin-left: 409px;
+    margin-left: 130px;
     margin-top: 69px;
 }
 
@@ -233,7 +252,7 @@
 }
 
 #nn {
-    margin-top: -470px;
+    margin-top: -700px;
 }
 
 .name-n {
@@ -241,9 +260,10 @@
     font-family: Times New Roman;
     font-style: normal;
     font-weight: normal;
-    font-size: 72px;
+    font-size: 50px;
     color: #000000;
-    margin-left: 388px;
+    margin-left: 140px;
+    margin-top: -80px;
 }
 
 .comenbr {
@@ -252,9 +272,9 @@
 }
 
 .komen {
-    max-width: 767px;
+    max-width: 700px;
     max-height: 129px;
-    min-width: 767px;
+    min-width: 700px;
     min-height: 129px;
     /* height: 129px; */
     font-family: Times New Roman;
@@ -272,9 +292,10 @@ input:focus {
     outline: 0;
 }
 
-
-.comenbr h1 {
-    margin-top: 10px;
+.comenbr {
+    margin-top: -150px;
+    margin-left: 130px;
+    /* margin-top: 0px; */
 }
 
 #wisata {
